@@ -1,0 +1,329 @@
+/* Nav and Welcome Note */
+@media screen and (max-width:1020px) {
+   nav {
+      width: 100%;
+      /* background-color: rgb(84, 55, 198); */
+      height: 80px;
+      display: flex;
+      justify-content: center;
+   }
+
+   h2 {
+      width: auto;
+      /* background-color: rgb(127, 168, 255); */
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 30px;
+   }
+
+   .header {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+   }
+
+   .list {
+      width: auto;
+      background-color: black;
+      display: none;
+   }
+
+
+   .lst {
+      width: 30px;
+      height: 30px;
+      display: block;
+   }
+
+   .lst img {
+      width: 30px;
+      height: 30px;
+   cursor: pointer;
+
+      /* display: inline; */
+   }
+   .hiddenlist {
+      height: 300px;
+      width: 200px;
+      position: absolute;
+      display: none;
+      right: 5%;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 24px;
+      background-color: rgba(152, 152, 152, 0.319) ;
+
+   }
+   
+.hiddenlist a{
+   color: white;
+   text-decoration: none;
+}
+.hiddenlist a:hover{
+   color: rgb(236, 73, 14);
+   text-decoration: none;
+}
+.hiddenlist li{
+   margin: 30px 20px;
+}
+   .Welcome-note {
+      font-size: 48px;
+      width: 100%;
+      text-align: center;
+   }
+
+   .lorem {
+      font-size: 25px; 
+      margin-top: 10px;
+      text-align: center;
+      line-height: 30px;
+   }
+   .btn-order {
+      padding: 10px 35px;
+      margin:15px;
+     border-radius: 25px;
+     border-style: none;
+     background-color:rgb(236, 73, 14) ;
+     color: white;
+     font-size: 18px;
+   }
+                               
+  
+
+}
+
+
+
+@media screen and (max-width:780px) {
+   
+   .mart {
+      color: white;
+      
+      margin-bottom: 0px;
+      font-size: 30px;
+   }
+   
+   .nav {
+      width: 90%;
+      min-height: 80px;
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+      border: none;
+      backdrop-filter: blur(0);
+    background-color: rgba(255, 255, 255, 0);
+   }
+
+
+   .Welcome-note {
+      font-size: 42px;
+      text-align: center;
+      width: 100%;
+      text-align: center;
+   }
+   
+   .lorem {
+      font-size: 22px;
+      margin-bottom: 0px;
+      text-align: center;
+   }
+   .btn-order {
+      padding: 5px 32px;
+      margin:20px;
+     border-radius: 35px;
+     border-style: none;
+     background-color:rgb(236, 73, 14) ;
+     color: white;
+     font-size: 20px;
+   }
+
+}
+@media screen and (max-width:480px) {
+
+   .Welcome-note {
+      font-size:35px;
+      width: 100%;
+      text-align: center;
+   } 
+   .lorem {
+      font-size: 18px; 
+      margin-top: 10px;
+      text-align: center;
+      
+   }
+   .btn-order {
+      padding: 7px 20px;
+      margin:15px;
+     border-radius: 20px;
+     border-style: none;
+     background-color:rgb(236, 73, 14) ;
+     color: white;
+     font-size: 16px;
+   }
+
+}
+
+/* Nav and Welcome Note Ends */
+
+
+
+/* Special Pizza container start */
+@media screen and (max-width:1020px) {
+
+   .cards{
+      flex-wrap: wrap;
+   }
+   .hero-section {
+
+      position: relative;
+      width: 100%;
+      height: 950px;
+      display: flex;
+      justify-content: center;
+   }
+   
+}
+   @media screen and (max-width:580px) {
+
+      .hero-section {
+
+         position: relative;
+         width: 100%;
+         height: 1540px;
+         /* background-color: rgb(54, 33, 156) !important; */
+         display: flex;
+         justify-content: center;
+      }
+     .card{
+      width:25rem !important;
+     }
+      }
+
+      @media screen and (max-width:475px) {
+
+         .hero-section {
+   
+            position: relative;
+            width: 100%;
+            min-height: 1650px;
+            /* background-color: rgb(41, 212, 78); */
+            display: flex;
+            justify-content: center;
+         }
+        .card{
+         width:18rem !important;
+        }
+      
+         }
+
+/* Special Pizza container ends */
+
+   
+/* We deliver Container start */
+@media screen and (max-width:780px) {
+   .delivery-container {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+   }
+.col-sm-5{
+   max-width: 100% !important;
+   text-align: center;
+}
+.col-sm-7 {
+   max-width: 100% !important;
+}
+.col-sm-7 img {
+   height: auto;
+   width: 100%;
+   object-fit: cover;
+}
+
+.card1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.address img {
+   height: 25px;
+   width: 23px;
+   padding-top: 3px;
+}
+.card1 .location {
+   width: 230px;
+   height: auto;
+   margin: 0 !important;
+   padding-left: 0;
+   padding-right: 10px;
+   color: white;
+}
+.card1 .town {
+   font-size: 30px;
+   text-align: center;
+   font-weight: 700;
+   color: white;
+   height: auto !important;
+   /* margin: 0 !important; */
+   line-height: 45px;
+}
+}
+
+/* We deliver Container  ends*/
+
+/* footer start */
+@media screen and (max-width:780px) {
+
+   .two {
+      width: 100%;
+      min-height: 230px;
+      position: relative;
+      display: flex;
+     flex-direction: column;
+     align-items: center;
+   
+   }
+   
+   .three {
+      width: 100%;
+      min-height: 70px;
+      position: relative;
+      /* background-color: #c23a3a; */
+      flex-direction: column;
+      align-items: center;
+
+   }
+
+   .two p {
+      width: 100%;
+      color: white;
+      font-size: 16px;
+      padding: 10px;
+      margin: 0;
+      text-align: center;
+   }
+   
+   
+   .footer-list {
+      width: 100%;
+      text-align: center;
+   }
+   
+   .footer-list li {
+      /* position: relative; */
+      padding: 6px 10px;
+      color: white;
+      min-height: auto;
+      font-size: 16px;
+   
+   }
+   .social-media {
+      display: inline-block;
+      padding: 10px;
+   }
+   .three p {
+      color: white;
+      margin: 0;
+      padding: 10px;
+   }
+}
